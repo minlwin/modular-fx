@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox alignment="CENTER_LEFT" prefHeight="250.0" prefWidth="400.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="com.jdc.combo.view.ComboView">
+   <children>
+      <Label text="Combobox">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <HBox spacing="10.0">
+         <children>
+            <ComboBox fx:id="combo" maxWidth="1.7976931348623157E308" prefHeight="27.0" prefWidth="256.0" promptText="Select One" HBox.hgrow="ALWAYS" />
+            <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#process" text="Process" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+      <Label text="Out  Put is" />
+      <Label fx:id="output">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

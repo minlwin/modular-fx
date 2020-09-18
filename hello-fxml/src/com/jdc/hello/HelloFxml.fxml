@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox alignment="CENTER" prefHeight="250.0" prefWidth="400.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1">
+   <children>
+      <Label text="Hello JavaFX">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Label text="Java Deveeloper Class">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>
